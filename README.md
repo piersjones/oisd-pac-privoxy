@@ -1,5 +1,12 @@
-# easylist-pac-privoxy
-EasyList Tracker and Adblock Rules to Proxy Auto Configuration (PAC) File and Privoxy Actions and Filters
+# oisd-pac-privoxy
+Forked from easylist-pac-privoxy, this uses the [OISD]https://oisd.nl/ blocklist instead (allowing for hopefully unbroken shopping, social apps etc.). 
+OISD and Adblock Rules to Proxy Auto Configuration (PAC) File and Privoxy Actions and Filters.
+
+Note: I also included EasyList's anti-adblock filter. Firstly, because I find it useful. Secondly, because OISD lacks a few rule types, so without another list (it likes EasyList) `logreg_priorities()` would have failed, as sklearn's `StandardScaler` is expecting to do something. I couldn't be bothered to mitigate that, I just wanted to block ads.
+
+The below hasn't been updated from the original repo, but I've not changed much.
+
+# Original readme
 
 Converts [EasyList](https://easylist.to/index.html) tracker and ad blocking rules to efficient network-level blocks in a [proxy.pac](https://raw.githubusercontent.com/essandess/easylist-pac-privoxy/master/proxy.pac) file for automatic proxy network configurations and [Privoxy](http://www.privoxy.org) proxy servers.
 
