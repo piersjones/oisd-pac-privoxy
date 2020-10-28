@@ -1,5 +1,5 @@
 # oisd-pac-privoxy
-Forked from easylist-pac-privoxy, this uses the [OISD]https://oisd.nl/ blocklist instead (allowing for hopefully unbroken shopping, social apps etc.). 
+Forked from easylist-pac-privoxy, this uses the [OISD](https://oisd.nl/) blocklist instead (allowing for hopefully unbroken shopping, social apps etc.). 
 OISD and Adblock Rules to Proxy Auto Configuration (PAC) File and Privoxy Actions and Filters.
 
 Note: I also included EasyList's anti-adblock filter. Firstly, because I find it useful. Secondly, because OISD lacks a few rule types, so without another list (it likes EasyList) `logreg_priorities()` would have failed, as sklearn's `StandardScaler` is expecting to do something. I couldn't be bothered to mitigate that, I just wanted to block ads.
